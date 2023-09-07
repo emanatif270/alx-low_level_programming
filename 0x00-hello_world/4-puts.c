@@ -2,6 +2,10 @@
 
 /**
  * main - Entry point
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: alawys 0 (Success)
  */
 
 int main(void)
