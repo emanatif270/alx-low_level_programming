@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - multplays two digits 
+ * mul - multplays two digits
  *
  * @int a: input 1
  *
@@ -12,5 +12,5 @@
 
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
