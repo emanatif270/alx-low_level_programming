@@ -2,10 +2,10 @@
 
 /**
  * _isupper - check if c is a digit
- * 
- * @c: input fir alphsbet 
  *
- * Return: 1 if its a digit , 0 if not 
+ * @c: input fir alphsbet
+ *
+ * Return: 1 if its a digit , 0 if not
  */
 
 int _isdigit(int c)
