@@ -3,7 +3,7 @@
 
 /**
  * puts_half * prints second half of a string
- * @str: char arry type
+ * @str: char array type
  * Description: it add numof char print length 1/2
  */
 
