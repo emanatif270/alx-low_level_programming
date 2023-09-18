@@ -13,7 +13,7 @@ void rev_string(char *s)
 	char temp;
 
 	/*find the string length */
-	for (l = 0; s[l] != '\0'; ++1)
+	for (l = 0; s[l] != '\0'; ++l)
 		;
 	/*swap the srting by looping*/
 	for (i = 0; i < l  / 2; i++)
