@@ -7,7 +7,7 @@
  * Description: it add numof char print length 1/2
  */
 
-voidputs_half(char *str)
+void puts_half(char *str)
 {
 	int i;
 
