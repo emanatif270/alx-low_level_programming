@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts - pints a string
+ * _puts - pints a string
  *
  * @str: string to print
  *
