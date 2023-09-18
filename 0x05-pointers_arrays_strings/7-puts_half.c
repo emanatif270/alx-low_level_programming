@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts_half * prints second half of a string
+ * puts_half - prints second half of a string
  * @str: char array type
  * Description: it add numof char print length 1/2
  */
