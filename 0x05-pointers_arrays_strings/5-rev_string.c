@@ -3,7 +3,9 @@
 
 /**
  * rev_str - revers the string
+ *
  * @s: string input
+ *
  * Return: nothing
  */
 
