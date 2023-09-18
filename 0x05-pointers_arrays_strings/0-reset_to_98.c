@@ -6,7 +6,7 @@
  *
  * @n: int parameter
  *
- * Return: noting 
+ * Return: noting
  */
 
 void reset_to_98(int *n)
