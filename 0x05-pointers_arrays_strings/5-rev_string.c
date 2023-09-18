@@ -19,7 +19,7 @@ void rev_string(char *s)
 	for (i = 0; i < l  / 2; i++)
 	{
 		temp = s[i];
-		s[i] = s[1 - 1 - i]; /*1 b the arry starts wuth 0*/
+		s[i] = s[l - 1 - i]; /*1 b the arry starts wuth 0*/
 		s[l - 1 - i] = temp;
 	}
 }
