@@ -9,7 +9,7 @@
  * Return: nothing
  */
 
-void puts22(char *str)
+void puts2(char *str)
 {
 	int i;
 
