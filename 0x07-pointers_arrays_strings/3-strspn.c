@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strpn - grts the lenghth of a prefix substring
+ * _strpn - grts the lenghth of a prefix substring.
  *
- * @s: string
- * @accept: bytes
- * Return: unsigned int
+ * @s: string.
+ * @accept: bytes.
+ * Return: unsigned int.
  */
 unsigned int _strpn(char *s, char *accept)
 {
