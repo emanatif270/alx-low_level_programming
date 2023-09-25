@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_memcpy - copies memory area
+ *_memcpy - copies memory area
  * @dest: memory area
  * @src: source
  * @n: lenght of src to be copied

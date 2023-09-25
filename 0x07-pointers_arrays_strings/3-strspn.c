@@ -10,15 +10,22 @@
  */
 unsigned int _strpn(char *s, char *accept)
 {
-	unsigned int it, jt;
+	unsigned int n = 0;
+	int r;
 
-	for (it = 0; s[it] != '\0'; it++)
+	while (*s)
 	{
-		for (jt = 0; accept[jt] != s[it]; jt++)
+		for (r = 0; accept[r]; r++)
 		{
-			if (accept[jt] == '\0')
-				return (it);
+			if (*s == accept[r])
+			{
+				n++;
+				break;
+			}
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
+		s++;
 	}
-	return (it);
+	return (n);
 }
