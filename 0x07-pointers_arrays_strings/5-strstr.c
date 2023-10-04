@@ -2,17 +2,27 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strstr - description
+ * @haystack: check the code
+ * @needle: chec
  * Return: always 0
  */
-int main(void)
-{
-	char *s = "hello , world";
-	char *f = "world";
-	char *t;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
+char *_strstr(char *haystack, char *needle)
+{
+	for(; *haystack != '\0'; haystack++)
+	{
+		char *l = haystack;
+		char *p = needle;
+
+		while (*l == *p && *p != '\0')
+		{
+			l++;
+			p++;
+		}
+		if (*p == '\0')
+			return (haystack);
+	}
+
 	return (0);
 }
